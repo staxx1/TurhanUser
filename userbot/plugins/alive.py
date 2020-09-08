@@ -12,13 +12,13 @@ pm_caption += "**SYSTEM STATUS**\n"
 pm_caption += "`TELETHON VERSION:` **6.0.9**\n`Python:` **3.7.4**\n"
 pm_caption += "`DATABASE STATUS:` **Functional**\n"
 pm_caption += "**Current Branch** : `master`\n"
-pm_caption += "**Friday OS** : `3.14`\n"
-pm_caption += "**Current Sat** : `StarkGangSat-2.25`\n"
+pm_caption += "**Turhan OS** : `3.14`\n"
+pm_caption += "**Current Sat** : `StaxxTeam-2.25`\n"
 pm_caption += f"**My Boss** : {DEFAULTUSER} \n"
 pm_caption += "**Heroku Database** : `AWS - Working Properly`\n\n"
 pm_caption += "**License** : [MIT Licence](github.com/StarkGang/FridayUserbot/blob/master/LICENSE)\n"
-pm_caption += "Copyright : By [StarkGang@Github](GitHub.com/StarkGang)\n"
-pm_caption += " [Deploy FridayUserbot](https://telegra.ph/FRIDAY-06-15)"
+pm_caption += "Copyright : By [staxx1@Github](https://github.com/staxx1/TurhanUser/)\n"
+pm_caption += " [Deploy TurhanUserbot](https://github.com/staxx1/TurhanUser/)"
 #@command(outgoing=True, pattern="^.alive$")
 @borg.on(admin_cmd(pattern=r"alive", allow_sudo=True))
 async def amireallyalive(alive):
