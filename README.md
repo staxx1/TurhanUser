@@ -23,7 +23,7 @@ Best User Bot To Manage Your Telegram Account
 <a href="https://youtu.be/xfHcm_e92eQ"><img src="https://img.shields.io/badge/How%20To-Deploy-red.svg?logo=Youtube"></a>
 
 
-### Host Friday In Heroku
+### Host Turhan In Heroku
 
 [![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/staxx1/TurhanUser)
 
