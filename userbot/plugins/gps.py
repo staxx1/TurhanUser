@@ -19,7 +19,7 @@ async def gps(event):
 
     await event.edit("Finding This Location In Maps Server.....")
 
-    geolocator = Nominatim(user_agent="F.R.I.D.A.Y USERBOT")
+    geolocator = Nominatim(user_agent="T.U.R.H.A.N USERBOT")
     geoloc = geolocator.geocode(input_str)
 
     if geoloc:
