@@ -16,7 +16,7 @@ IS_SELECTED_DIFFERENT_BRANCH = (
     "please check out to an official branch, and re-start the updater."
 )
 OFFICIAL_UPSTREAM_REPO = "https://github.com/StarkGang/FridayUserbot"
-BOT_IS_UP_TO_DATE = "Friday userbot is up-to-date!"
+BOT_IS_UP_TO_DATE = "Turhan userbot is up-to-date!"
 NEW_BOT_UP_DATE_FOUND = (
     "**Friday Update Found For** {branch_name}\n"
     "\n\n{changelog}\n"
@@ -72,7 +72,7 @@ async def updater(message):
     )
 
     if not changelog:
-        await message.edit("**Updating Userbot** \n**Version** : `2.0` \n**Telethon** : `1.15.0` \n**Status** : `Pulling Updates` \n**Thank You For Using Friday !**")
+        await message.edit("**Updating Userbot** \n**Version** : `2.0` \n**Telethon** : `1.15.0` \n**Status** : `Pulling Updates` \n**Thank You For Using Turhan !**")
         await asyncio.sleep(5)
  
     message_one = NEW_BOT_UP_DATE_FOUND.format(
