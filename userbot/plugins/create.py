@@ -16,7 +16,7 @@ from userbot import CMD_HELP
 
 async def telegraphs(grop):
 
-    """ For .create command, Creating New Group & Channel """
+    """ For .create command, Yeni Grup ve Kanal Oluşturuluyor. """
 
     if not grop.text[0].isalpha() and grop.text[0] not in ("/", "#", "@", "!"):
 
