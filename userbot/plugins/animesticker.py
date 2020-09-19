@@ -45,10 +45,10 @@ def deEmojify(inputString: str) -> str:
     return re.sub(EMOJI_PATTERN, '', inputString)
 
 
-#@register(outgoing=True, pattern="^.waifu(?: |$)(.*)", allow_sudo=True))
+#@register(outgoing=True, pattern="^.animesticker(?: |$)(.*)", allow_sudo=True))
 @borg.on(admin_cmd(pattern=r"waifu(?: |$)(.*)", allow_sudo=True))
 async def waifu(animu):
-#"""Creates random anime sticker!"""
+#"""Rastgele anime çıkartması oluşturuluyor!"""
 
     text = animu.pattern_match.group(1)
     if not text:
