@@ -260,10 +260,10 @@ csclist = ['ACG',
                 'CTC']         
 
 csclist = sorted(csclist)
-@borg.on(events.NewMessage(pattern=r"\.check", outgoing=True))
+@borg.on(events.NewMessage(pattern=r"\.Kontrol", outgoing=True))
 async def checker(e):
     if not e.text[0].isalpha() and e.text[0] not in ("/", "#", "@", "!"):
-        await e.edit("Fetching Information, Wait!")
+        await e.edit("Bilgi Alınıyor, Bekleyin!")
         print(e.text)
         messege = e.text
         modelnum = str(e.text)
